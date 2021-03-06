@@ -19,6 +19,7 @@ class QuizBrain:
         current_question = self.question_list[self.question_number]
         self.correct_answer = current_question.answer
         self.question_number += 1
+        print(f"Category: {current_question.category}")
         return input(f"Q.{self.question_number}: {current_question.text} (True / False):").capitalize()
 
     def check_answer(self):

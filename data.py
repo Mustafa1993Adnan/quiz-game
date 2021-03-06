@@ -1,16 +1,16 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, "
-             "you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.",
-     "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {"category": "Entertainment: Japanese Anime & Manga", "type": "boolean", "difficulty": "easy",
+     "question": "The anime &quot;Lucky Star&quot; follows the story of one girl who is unaware she is God.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+     "question": "You can legally drink alcohol while driving in Mississippi.", "correct_answer": "True",
+     "incorrect_answers": ["False"]}, {"category": "Science & Nature", "type": "boolean", "difficulty": "easy",
+                                       "question": "An Astronomical Unit is the distance between Earth and the Moon.",
+                                       "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "In Heroes of the Storm, the Cursed Hollow map gimmick requires players to kill the undead to curse the enemy team.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Music", "type": "boolean", "difficulty": "easy",
+     "question": "Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.", "correct_answer": "True",
+     "incorrect_answers": ["False"]}
 ]
