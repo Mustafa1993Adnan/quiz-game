@@ -3,6 +3,3 @@ class Question:
         self.text = text
         self.answer = answer
 
-
-que = Question("Mustafa", False)
-print(que.text)
